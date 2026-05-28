@@ -4,9 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
 
 :root {
-    --fonte01: font-family: "Bebas Neue", sans-serif; /* Títulos principais */
-    --fonte02: font-family: "Poppins", sans-serif; /* Textos e parágrafos */
-    --fonte03: font-family: "Cinzel", serif; /* Títulos */
+    --fonte01:"Bebas Neue", sans-serif; /* Títulos principais */
+    --fonte02:"Poppins", sans-serif; /* Textos e parágrafos */
+    --fonte03:"Cinzel", serif; /* Títulos */
 }
 
 * {
@@ -15,33 +15,62 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom, black, #6A4600);
-    background-repeat: no-repeat;
-    color: white;
+    font-weight: 500;
+    font-family: var(--fonte02);
 }
 
 header {
-    padding-top: 20px;
-    padding-bottom: 50px;
-    text-transform: uppercase;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 header > h1 {
-    display: inline-block;
+    color: goldenrod;
+    font-weight: bold;
     padding-left: 50px;
-    padding-right: 55vw;
+    font-size: 2em;
+    font-family: var(--fonte03) ;
 }
 
-nav {
-    display: inline-block;
+main > section {
+    min-height: 100vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 50px;
 }
 
-nav > a {
+main > section.description  {
     color: white;
-    text-decoration: none;
-    padding-left: 50px ;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.400);
+    min-width: 23vw;
+    padding-bottom: 100px;
 }
 
-a:hover {
-    text-decoration: underline;
+section.description h1 {
+    color: goldenrod;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+section.description h2 {
+    max-width: 400px;
+    font-size: 30px;
+}
+
+section.description p {
+    max-width: 400px;
+    font-size:  15px;
+    font-weight: 300;
+}
+
+main > #mj-image {
+    background-image: url(../assets/images/mj-background.png);
+}
+
+
+footer {
+    background-color: black;
+    padding-left: 50px;
 }
