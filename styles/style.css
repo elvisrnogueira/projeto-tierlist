@@ -21,8 +21,8 @@ body {
 
 header {
     background-color: black;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 header > h1 {
@@ -37,14 +37,13 @@ main > section {
     min-height: 100vh;
     padding-top: 5vh;
     padding-bottom: 5vh;
-    padding-left: 50px;
 }
 
 main > .description  {
     color: white;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.400);
     min-width: 23vw;
     padding-bottom: 100px;
+    padding-left: 50px;
 }
 
 .description h1 {
@@ -52,6 +51,7 @@ main > .description  {
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 500;
+    margin-top: 50px;
 }
 
 .description h2 {
@@ -70,10 +70,9 @@ main > .description  {
 main > #mj-image {
    background-image: url(../assets/images/mj-background.png);
    background-color: black;
-   mask-image: linear-gradient(to bottom, black 60%, black 100%);
-  -webkit-mask-image: linear-gradient(to bottom, black 60%, black 100%);
    background-size: cover;
-   background-position: left top;
+   background-position: left center;
+   box-shadow: inset 10px 10px 13px 10px rgba(0, 0, 0, rgba(0, 0, 0, 0.397));
 }
 
 .spotify-btn {
@@ -98,15 +97,24 @@ main > #mj-image {
 }
 
 .cards {
+    border-top: 1px solid goldenrod;
     background-color: black;
 }
 
 .cards h2 {
     color: goldenrod;
     text-align: center;
+    font-family: var(--fonte03);
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.song-card {
+
 }
 
 footer {
+    border-top: 1px solid goldenrod;
     background-color: black;
     padding: 10px 50px;
 }
