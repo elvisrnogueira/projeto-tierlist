@@ -68,7 +68,7 @@ main > .description  {
 }
 
 main > #mj-image {
-   background-image: url(../assets/images/mj-background.png);
+   background-image: url("../images/mj-background.png");
    background-color: black;
    background-size: cover;
    background-repeat: no-repeat;
