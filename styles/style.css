@@ -157,6 +157,7 @@ main > #mj-image {
 }
 
 .song-card:hover {
+    border: 2px solid white;
     transform: scale(1.1);
 }
 
@@ -180,15 +181,48 @@ main > #mj-image {
 
 .play-btn:hover {
     transform: scale(1.1);
+    background-color: goldenrod;
+    color: black;
 }
 
 footer {
+    position: relative;
     border-top: 1px solid goldenrod;
     background-color: black;
-    padding: 10px 50px;
+    padding: 20px 50px;
 }
 
 footer p {
     color: goldenrod;
-    font-size: 10px;
+    font-size: 13px;
+}
+
+a .link-btn {
+    height: 50px;
+    width: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.link-btn:hover {
+    transform: scale(1.1);
+}
+
+footer #spotify-link {
+    position: absolute;
+    right: 400px;
+    top: 30px
+}
+
+footer #linkedin-link {
+    position: absolute;
+    right: 300px;
+    top: 30px
+}
+
+footer #github-link {
+    position: absolute;
+    height: 60px;
+    width: 63px;
+    right: 190px;
+    top: 25px
 }
