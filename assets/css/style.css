@@ -98,7 +98,6 @@ main > #mj-image {
 }
 
 .cards {
-    border-top: 1px solid goldenrod;
     background-color: black;
     text-align: center;
 }
@@ -116,7 +115,6 @@ main > #mj-image {
 
 .song-card {
     width: 300px;
-    border: 2px solid goldenrod;
     border-radius: 12px;
     overflow: hidden;
     position: relative;
@@ -157,7 +155,7 @@ main > #mj-image {
 }
 
 .song-card:hover {
-    border: 2px solid white;
+    border: 2px solid goldenrod;
     transform: scale(1.1);
 }
 
@@ -198,8 +196,8 @@ footer p {
 }
 
 a .link-btn {
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -221,8 +219,8 @@ footer #linkedin-link {
 
 footer #github-link {
     position: absolute;
-    height: 60px;
-    width: 63px;
+    height: 38px;
+    width: 41px;
     right: 190px;
-    top: 25px
+    top: 26px
 }
